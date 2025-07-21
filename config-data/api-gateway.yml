@@ -26,9 +26,6 @@ spring:
                 redis-rate-limiter.replenishRate: 5
                 redis-rate-limiter.burstCapacity: 10
 
-      default-filters:
-        - name: RequestLoggingFilter
-
 logging:
   level:
     root: INFO
